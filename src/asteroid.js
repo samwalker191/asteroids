@@ -1,7 +1,6 @@
 import MovingObject from './moving_object';
 import Util from './util';
 
-
 class Asteroid extends MovingObject {
     constructor(options) {
         options.color = 'gray';
